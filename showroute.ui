@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>ShowRoute</class>
+ <widget class="QDialog" name="ShowRoute">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1025</width>
+    <height>615</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <property name="windowIcon">
+   <iconset resource="Resource.qrc">
+    <normaloff>:/img/8552951.png</normaloff>:/img/8552951.png</iconset>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(15, 163, 255);</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout">
+   <item alignment="Qt::AlignHCenter">
+    <widget class="QLabel" name="LEinformRoute">
+     <property name="styleSheet">
+      <string notr="true">font: 28pt &quot;Gabriola&quot;;</string>
+     </property>
+     <property name="text">
+      <string> Route information</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QTableView" name="TVroute">
+     <property name="styleSheet">
+      <string notr="true">background-color:rgb(255, 255, 255);
+font: 12pt &quot;Times New Roman&quot;;</string>
+     </property>
+    </widget>
+   </item>
+   <item alignment="Qt::AlignRight">
+    <widget class="QPushButton" name="PBback">
+     <property name="minimumSize">
+      <size>
+       <width>200</width>
+       <height>30</height>
+      </size>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton {
+    color: #000000;
+    background-color: rgb(219, 219, 219);
+    border-radius: 7px; 
+    border: 3px solid rgb(0, 0, 0);
+}
+
+
+QPushButton:hover {
+    color: #000000;
+    background-color: rgb(201, 201, 201); 
+    border: 2px solid rgb(0, 0, 0);
+}
+QPushButton {
+	font: 14pt &quot;Gabriola&quot;;
+    color: #000000;
+    background-color: rgb(219, 219, 219);
+    border-radius: 7px; 
+    border: 3px solid rgb(0, 0, 0);
+}</string>
+     </property>
+     <property name="text">
+      <string>back</string>
+     </property>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources>
+  <include location="Resource.qrc"/>
+ </resources>
+ <connections/>
+</ui>

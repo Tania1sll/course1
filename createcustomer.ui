@@ -1,0 +1,554 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>CreateCustomer</class>
+ <widget class="QDialog" name="CreateCustomer">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>865</width>
+    <height>591</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Book a trip</string>
+  </property>
+  <property name="windowIcon">
+   <iconset resource="Resource.qrc">
+    <normaloff>:/img/8552951.png</normaloff>:/img/8552951.png</iconset>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(15, 163, 255);</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout">
+   <item alignment="Qt::AlignHCenter">
+    <widget class="QLabel" name="LBbookAtrip">
+     <property name="styleSheet">
+      <string notr="true">font: 36pt &quot;Gabriola&quot;;</string>
+     </property>
+     <property name="text">
+      <string>Book a trip</string>
+     </property>
+    </widget>
+   </item>
+   <item alignment="Qt::AlignLeft">
+    <widget class="QLineEdit" name="LElastName">
+     <property name="minimumSize">
+      <size>
+       <width>300</width>
+       <height>0</height>
+      </size>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QLineEdit {
+    color: #000000;
+    background-color: rgb(219, 219, 219);
+    border-radius: 7px; 
+    border: 2px solid rgb(0, 0, 0);
+}
+
+
+QLineEdit:hover {
+    color: #000000;
+    border: 2px solid rgb(0, 0, 0);
+}</string>
+     </property>
+     <property name="inputMask">
+      <string/>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="placeholderText">
+      <string>enter surname...</string>
+     </property>
+    </widget>
+   </item>
+   <item alignment="Qt::AlignLeft">
+    <widget class="QLineEdit" name="LEfirstName">
+     <property name="minimumSize">
+      <size>
+       <width>300</width>
+       <height>0</height>
+      </size>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QLineEdit {
+    color: #000000;
+    background-color: rgb(219, 219, 219);
+    border-radius: 7px; 
+    border: 2px solid rgb(0, 0, 0);
+}
+
+
+QLineEdit:hover {
+    color: #000000;
+    border: 2px solid rgb(0, 0, 0);
+}</string>
+     </property>
+     <property name="placeholderText">
+      <string>enter name...</string>
+     </property>
+    </widget>
+   </item>
+   <item alignment="Qt::AlignLeft">
+    <widget class="QLineEdit" name="LEmiddleName">
+     <property name="minimumSize">
+      <size>
+       <width>300</width>
+       <height>0</height>
+      </size>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QLineEdit {
+    color: #000000;
+    background-color: rgb(219, 219, 219);
+    border-radius: 7px; 
+    border: 2px solid rgb(0, 0, 0);
+}
+
+
+QLineEdit:hover {
+    color: #000000;
+    border: 2px solid rgb(0, 0, 0);
+}</string>
+     </property>
+     <property name="placeholderText">
+      <string>enter middle name...</string>
+     </property>
+    </widget>
+   </item>
+   <item alignment="Qt::AlignLeft">
+    <widget class="QLineEdit" name="LEage">
+     <property name="minimumSize">
+      <size>
+       <width>300</width>
+       <height>0</height>
+      </size>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QLineEdit {
+    color: #000000;
+    background-color: rgb(219, 219, 219);
+    border-radius: 7px; 
+    border: 2px solid rgb(0, 0, 0);
+}
+
+
+QLineEdit:hover {
+    color: #000000;
+    border: 2px solid rgb(0, 0, 0);
+}</string>
+     </property>
+     <property name="placeholderText">
+      <string>enter age...</string>
+     </property>
+    </widget>
+   </item>
+   <item alignment="Qt::AlignLeft">
+    <widget class="QLineEdit" name="LEnumber">
+     <property name="minimumSize">
+      <size>
+       <width>300</width>
+       <height>0</height>
+      </size>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QLineEdit {
+    color: #000000;
+    background-color: rgb(219, 219, 219);
+    border-radius: 7px; 
+    border: 2px solid rgb(0, 0, 0);
+}
+
+
+QLineEdit:hover {
+    color: #000000;
+    border: 2px solid rgb(0, 0, 0);
+}</string>
+     </property>
+     <property name="placeholderText">
+      <string>enter number...</string>
+     </property>
+    </widget>
+   </item>
+   <item alignment="Qt::AlignLeft">
+    <widget class="QLineEdit" name="LEemail">
+     <property name="minimumSize">
+      <size>
+       <width>300</width>
+       <height>0</height>
+      </size>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QLineEdit {
+    color: #000000;
+    background-color: rgb(219, 219, 219);
+    border-radius: 7px; 
+    border: 2px solid rgb(0, 0, 0);
+}
+
+
+QLineEdit:hover {
+    color: #000000;
+    border: 2px solid rgb(0, 0, 0);
+}</string>
+     </property>
+     <property name="placeholderText">
+      <string>enter email...</string>
+     </property>
+    </widget>
+   </item>
+   <item alignment="Qt::AlignRight">
+    <widget class="QComboBox" name="CBwater">
+     <property name="minimumSize">
+      <size>
+       <width>400</width>
+       <height>0</height>
+      </size>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QComboBox {
+    color: #000000;
+    background-color: rgb(219, 219, 219);
+    border-radius: 7px; 
+    border: 2px solid rgb(0, 0, 0);
+}
+QComboBox
+ {
+	font: 14pt &quot;Gabriola&quot;;
+    color: #000000;
+    background-color: rgb(219, 219, 219);
+    border-radius: 7px; 
+    border: 3px solid rgb(0, 0, 0);
+}</string>
+     </property>
+     <item>
+      <property name="text">
+       <string>Сплав_порогами_Чорного_Черемоша</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Рафтинг_на_Білому_Черемоші</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Пороги_Прута</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Інстаграмний_Дністер</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Літній_релакс_на_берегах_Дністра</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Весняні_пороги_Свічі_і_Мізунки</string>
+      </property>
+     </item>
+    </widget>
+   </item>
+   <item alignment="Qt::AlignLeft">
+    <widget class="QComboBox" name="CBroute">
+     <property name="minimumSize">
+      <size>
+       <width>300</width>
+       <height>0</height>
+      </size>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QComboBox {
+    color: #000000;
+    background-color: rgb(219, 219, 219);
+    border-radius: 7px; 
+    border: 2px solid rgb(0, 0, 0);
+}
+QComboBox {
+	font: 14pt &quot;Gabriola&quot;;
+    color: #000000;
+    background-color: rgb(219, 219, 219);
+    border-radius: 7px; 
+    border: 3px solid rgb(0, 0, 0);
+}</string>
+     </property>
+     <item>
+      <property name="text">
+       <string>Choose a route</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>печера</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>вода</string>
+      </property>
+     </item>
+    </widget>
+   </item>
+   <item alignment="Qt::AlignRight">
+    <widget class="QComboBox" name="CBcave">
+     <property name="minimumSize">
+      <size>
+       <width>400</width>
+       <height>0</height>
+      </size>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QComboBox {
+    color: #000000;
+    background-color: rgb(219, 219, 219);
+    border-radius: 7px; 
+    border: 2px solid rgb(0, 0, 0);
+}
+QComboBox {
+	font: 14pt &quot;Gabriola&quot;;
+    color: #000000;
+    background-color: rgb(219, 219, 219);
+    border-radius: 7px; 
+    border: 3px solid rgb(0, 0, 0);
+}</string>
+     </property>
+     <item>
+      <property name="text">
+       <string>Екскурсійно-одноманітний_вихід</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Східне_кільце</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Західні_лабіринти</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Сюрпризи_під_землею</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Казка</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Квест_для_початкіців</string>
+      </property>
+     </item>
+    </widget>
+   </item>
+   <item alignment="Qt::AlignLeft">
+    <widget class="QComboBox" name="CBinstructor">
+     <property name="minimumSize">
+      <size>
+       <width>300</width>
+       <height>0</height>
+      </size>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QComboBox {
+    color: #000000;
+    background-color: rgb(219, 219, 219);
+    border-radius: 7px; 
+    border: 2px solid rgb(0, 0, 0);
+}
+QComboBox {
+	font: 14pt &quot;Gabriola&quot;;
+    color: #000000;
+    background-color: rgb(219, 219, 219);
+    border-radius: 7px; 
+    border: 3px solid rgb(0, 0, 0);
+}</string>
+     </property>
+     <item>
+      <property name="text">
+       <string>Choose an instructor</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Гора</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Зирянова</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Слугоцька</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Зотов</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Білошицький</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Яцків</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Перевізник </string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Гаврів</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Зробок</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Пивовар</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Іванів</string>
+      </property>
+     </item>
+    </widget>
+   </item>
+   <item>
+    <widget class="QLabel" name="LBprice">
+     <property name="text">
+      <string>Price</string>
+     </property>
+    </widget>
+   </item>
+   <item alignment="Qt::AlignLeft">
+    <widget class="QPushButton" name="PBback">
+     <property name="minimumSize">
+      <size>
+       <width>204</width>
+       <height>25</height>
+      </size>
+     </property>
+     <property name="font">
+      <font>
+       <family>Gabriola</family>
+       <pointsize>18</pointsize>
+       <italic>false</italic>
+       <bold>false</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton {
+    color: #000000;
+    background-color: rgb(219, 219, 219);
+    border-radius: 7px; 
+    border: 3px solid rgb(0, 0, 0);
+}
+
+
+QPushButton:hover {
+    color: #000000;
+    background-color: rgb(201, 201, 201); 
+    border: 2px solid rgb(0, 0, 0);
+}
+QPushButton {
+	font: 14pt &quot;Gabriola&quot;;
+    color: #000000;
+    background-color: rgb(219, 219, 219);
+    border-radius: 7px; 
+    border: 3px solid rgb(0, 0, 0);
+}QPushButton {
+    color: #000000;
+    background-color: rgb(219, 219, 219);
+    border-radius: 7px; 
+    border: 3px solid rgb(0, 0, 0);
+}
+
+
+QPushButton:hover {
+    color: #000000;
+    background-color: rgb(201, 201, 201); 
+    border: 2px solid rgb(0, 0, 0);
+}
+QPushButton {
+	font: 18pt &quot;Gabriola&quot;;
+    color: #000000;
+    background-color: rgb(219, 219, 219);
+    border-radius: 7px; 
+    border: 3px solid rgb(0, 0, 0);
+}</string>
+     </property>
+     <property name="text">
+      <string>back</string>
+     </property>
+    </widget>
+   </item>
+   <item alignment="Qt::AlignRight">
+    <widget class="QPushButton" name="PBnext">
+     <property name="minimumSize">
+      <size>
+       <width>204</width>
+       <height>31</height>
+      </size>
+     </property>
+     <property name="sizeIncrement">
+      <size>
+       <width>200</width>
+       <height>30</height>
+      </size>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton {
+    color: #000000;
+    background-color: rgb(219, 219, 219);
+    border-radius: 7px; 
+    border: 3px solid rgb(0, 0, 0);
+}
+
+
+QPushButton:hover {
+    color: #000000;
+    background-color: rgb(201, 201, 201); 
+    border: 2px solid rgb(0, 0, 0);
+}
+QPushButton {
+	font: 14pt &quot;Gabriola&quot;;
+    color: #000000;
+    background-color: rgb(219, 219, 219);
+    border-radius: 7px; 
+    border: 3px solid rgb(0, 0, 0);
+}</string>
+     </property>
+     <property name="text">
+      <string>happy jouney</string>
+     </property>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources>
+  <include location="Resource.qrc"/>
+ </resources>
+ <connections/>
+</ui>

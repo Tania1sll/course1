@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>505</width>
+    <height>555</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>User menu</string>
+  </property>
+  <property name="windowIcon">
+   <iconset>
+    <normaloff>../Users/Таня/Pictures/Нова папка/8552951.png</normaloff>../Users/Таня/Pictures/Нова папка/8552951.png</iconset>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(15, 163, 255);</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QVBoxLayout" name="verticalLayout">
+    <item>
+     <spacer name="verticalSpacer_3">
+      <property name="orientation">
+       <enum>Qt::Vertical</enum>
+      </property>
+      <property name="sizeHint" stdset="0">
+       <size>
+        <width>20</width>
+        <height>40</height>
+       </size>
+      </property>
+     </spacer>
+    </item>
+    <item alignment="Qt::AlignHCenter">
+     <widget class="QLabel" name="label">
+      <property name="styleSheet">
+       <string notr="true">font: 28pt &quot;Gabriola&quot;;</string>
+      </property>
+      <property name="text">
+       <string>User menu</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <spacer name="verticalSpacer_2">
+      <property name="orientation">
+       <enum>Qt::Vertical</enum>
+      </property>
+      <property name="sizeHint" stdset="0">
+       <size>
+        <width>20</width>
+        <height>40</height>
+       </size>
+      </property>
+     </spacer>
+    </item>
+    <item alignment="Qt::AlignHCenter">
+     <widget class="QPushButton" name="PBcustomer">
+      <property name="minimumSize">
+       <size>
+        <width>250</width>
+        <height>30</height>
+       </size>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton {
+    color: #000000;
+    background-color: rgb(219, 219, 219);
+    border-radius: 7px; 
+    border: 3px solid rgb(0, 0, 0);
+}
+
+
+QPushButton:hover {
+    color: #000000;
+    background-color: rgb(201, 201, 201); 
+    border: 2px solid rgb(0, 0, 0);
+}
+QPushButton {
+	font: 18pt &quot;Gabriola&quot;;
+    color: #000000;
+    background-color: rgb(219, 219, 219);
+    border-radius: 7px; 
+    border: 3px solid rgb(0, 0, 0);
+}</string>
+      </property>
+      <property name="text">
+       <string>Book a trip</string>
+      </property>
+     </widget>
+    </item>
+    <item alignment="Qt::AlignHCenter">
+     <widget class="QPushButton" name="PBinstructor">
+      <property name="minimumSize">
+       <size>
+        <width>250</width>
+        <height>30</height>
+       </size>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton {
+    color: #000000;
+    background-color: rgb(219, 219, 219);
+    border-radius: 7px; 
+    border: 3px solid rgb(0, 0, 0);
+}
+
+
+QPushButton:hover {
+    color: #000000;
+    background-color: rgb(201, 201, 201); 
+    border: 2px solid rgb(0, 0, 0);
+}
+QPushButton {
+	font: 18pt &quot;Gabriola&quot;;
+    color: #000000;
+    background-color: rgb(219, 219, 219);
+    border-radius: 7px; 
+    border: 3px solid rgb(0, 0, 0);
+}</string>
+      </property>
+      <property name="text">
+       <string>Instructors avialable</string>
+      </property>
+     </widget>
+    </item>
+    <item alignment="Qt::AlignHCenter">
+     <widget class="QPushButton" name="PBrouter">
+      <property name="minimumSize">
+       <size>
+        <width>250</width>
+        <height>30</height>
+       </size>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton {
+	font: 18pt &quot;Gabriola&quot;;
+    color: #000000;
+    background-color: rgb(219, 219, 219);
+    border-radius: 7px; 
+    border: 3px solid rgb(0, 0, 0);
+}
+
+
+QPushButton:hover {
+    color: #000000;
+    background-color: rgb(201, 201, 201); 
+    border: 2px solid rgb(0, 0, 0);
+}</string>
+      </property>
+      <property name="text">
+       <string> Avialable routes</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <spacer name="verticalSpacer">
+      <property name="orientation">
+       <enum>Qt::Vertical</enum>
+      </property>
+      <property name="sizeHint" stdset="0">
+       <size>
+        <width>20</width>
+        <height>40</height>
+       </size>
+      </property>
+     </spacer>
+    </item>
+    <item>
+     <widget class="QPushButton" name="PBback">
+      <property name="minimumSize">
+       <size>
+        <width>200</width>
+        <height>30</height>
+       </size>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton {
+    color: #000000;
+    background-color: rgb(219, 219, 219);
+    border-radius: 7px; 
+    border: 3px solid rgb(0, 0, 0);
+}
+
+
+QPushButton:hover {
+    color: #000000;
+    background-color: rgb(201, 201, 201); 
+    border: 2px solid rgb(0, 0, 0);
+}
+QPushButton {
+	font: 18pt &quot;Gabriola&quot;;
+    color: #000000;
+    background-color: rgb(219, 219, 219);
+    border-radius: 7px; 
+    border: 3px solid rgb(0, 0, 0);
+}</string>
+      </property>
+      <property name="text">
+       <string>Go out</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>505</width>
+     <height>28</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

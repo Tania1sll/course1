@@ -1,0 +1,340 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>CreateInstructor</class>
+ <widget class="QDialog" name="CreateInstructor">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1090</width>
+    <height>662</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Create Instructor</string>
+  </property>
+  <property name="windowIcon">
+   <iconset resource="Resource.qrc">
+    <normaloff>:/img/8552951.png</normaloff>:/img/8552951.png</iconset>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(15, 163, 255);</string>
+  </property>
+  <layout class="QGridLayout" name="gridLayout">
+   <item row="6" column="0" alignment="Qt::AlignLeft">
+    <widget class="QLineEdit" name="LEmiddleName">
+     <property name="minimumSize">
+      <size>
+       <width>204</width>
+       <height>30</height>
+      </size>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QLineEdit {
+    color: #000000;
+    background-color: rgb(219, 219, 219);
+    border-radius: 7px; 
+    border: 2px solid rgb(0, 0, 0);
+}
+
+
+QLineEdit:hover {
+    color: #000000;
+    border: 2px solid rgb(0, 0, 0);
+}</string>
+     </property>
+     <property name="placeholderText">
+      <string>enter middle name...</string>
+     </property>
+    </widget>
+   </item>
+   <item row="11" column="2" colspan="2" alignment="Qt::AlignRight">
+    <widget class="QPushButton" name="PBback">
+     <property name="minimumSize">
+      <size>
+       <width>204</width>
+       <height>32</height>
+      </size>
+     </property>
+     <property name="maximumSize">
+      <size>
+       <width>529</width>
+       <height>16777215</height>
+      </size>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton {
+    color: #000000;
+    background-color: rgb(219, 219, 219);
+    border-radius: 7px; 
+    border: 3px solid rgb(0, 0, 0);
+}
+
+
+QPushButton:hover {
+    color: #000000;
+    background-color: rgb(255, 0, 0); 
+    border: 2px solid rgb(0, 0, 0);
+}
+QPushButton {
+	font: 14pt &quot;Gabriola&quot;;
+    color: #000000;
+    background-color: rgb(219, 219, 219);
+    border-radius: 7px; 
+    border: 3px solid rgb(0, 0, 0);
+}</string>
+     </property>
+     <property name="text">
+      <string>Back</string>
+     </property>
+    </widget>
+   </item>
+   <item row="7" column="0" alignment="Qt::AlignLeft">
+    <widget class="QLineEdit" name="LEage">
+     <property name="minimumSize">
+      <size>
+       <width>204</width>
+       <height>30</height>
+      </size>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QLineEdit {
+    color: #000000;
+    background-color: rgb(219, 219, 219);
+    border-radius: 7px; 
+    border: 2px solid rgb(0, 0, 0);
+}
+
+
+QLineEdit:hover {
+    color: #000000;
+    border: 2px solid rgb(0, 0, 0);
+}</string>
+     </property>
+     <property name="placeholderText">
+      <string>enter age...</string>
+     </property>
+    </widget>
+   </item>
+   <item row="10" column="2" alignment="Qt::AlignRight">
+    <widget class="QPushButton" name="PBnext">
+     <property name="minimumSize">
+      <size>
+       <width>204</width>
+       <height>0</height>
+      </size>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton {
+    color: #000000;
+    background-color: rgb(219, 219, 219);
+    border-radius: 7px; 
+    border: 3px solid rgb(0, 0, 0);
+}
+
+
+QPushButton:hover {
+    color: #000000;
+    background-color: rgb(0, 202, 0); 
+    border: 2px solid rgb(0, 0, 0);
+}
+QPushButton {
+	font: 14pt &quot;Gabriola&quot;;
+    color: #000000;
+    background-color: rgb(219, 219, 219);
+    border-radius: 7px; 
+    border: 3px solid rgb(0, 0, 0);
+}</string>
+     </property>
+     <property name="text">
+      <string>Add instructor</string>
+     </property>
+    </widget>
+   </item>
+   <item row="3" column="0" alignment="Qt::AlignLeft">
+    <widget class="QLineEdit" name="LElastName">
+     <property name="minimumSize">
+      <size>
+       <width>204</width>
+       <height>30</height>
+      </size>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QLineEdit {
+    color: #000000;
+    background-color: rgb(219, 219, 219);
+    border-radius: 7px; 
+    border: 2px solid rgb(0, 0, 0);
+}
+
+
+QLineEdit:hover {
+    color: #000000;
+    border: 2px solid rgb(0, 0, 0);
+}</string>
+     </property>
+     <property name="placeholderText">
+      <string>enter name...</string>
+     </property>
+    </widget>
+   </item>
+   <item row="2" column="1" alignment="Qt::AlignLeft">
+    <widget class="QLineEdit" name="LEgeneralInformation">
+     <property name="minimumSize">
+      <size>
+       <width>204</width>
+       <height>30</height>
+      </size>
+     </property>
+     <property name="sizeIncrement">
+      <size>
+       <width>200</width>
+       <height>0</height>
+      </size>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QLineEdit {
+    color: #000000;
+    background-color: rgb(219, 219, 219);
+    border-radius: 7px; 
+    border: 2px solid rgb(0, 0, 0);
+}
+
+
+QLineEdit:hover {
+    color: #000000;
+    border: 2px solid rgb(0, 0, 0);
+}
+</string>
+     </property>
+     <property name="placeholderText">
+      <string>enter general informanion...</string>
+     </property>
+    </widget>
+   </item>
+   <item row="0" column="0" colspan="4">
+    <widget class="QTableView" name="TVinstuctor">
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(255, 255, 255);
+</string>
+     </property>
+    </widget>
+   </item>
+   <item row="2" column="0" alignment="Qt::AlignLeft">
+    <widget class="QLineEdit" name="LEfirstName">
+     <property name="minimumSize">
+      <size>
+       <width>204</width>
+       <height>30</height>
+      </size>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QLineEdit {
+    color: #000000;
+    background-color: rgb(219, 219, 219);
+    border-radius: 7px; 
+    border: 2px solid rgb(0, 0, 0);
+}
+
+
+QLineEdit:hover {
+    color: #000000; 
+    border: 2px solid rgb(0, 0, 0);
+}</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="placeholderText">
+      <string>enter surname...</string>
+     </property>
+    </widget>
+   </item>
+   <item row="3" column="1" alignment="Qt::AlignLeft">
+    <widget class="QLineEdit" name="LEprice">
+     <property name="minimumSize">
+      <size>
+       <width>204</width>
+       <height>30</height>
+      </size>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QLineEdit {
+    color: #000000;
+    background-color: rgb(219, 219, 219);
+    border-radius: 7px; 
+    border: 2px solid rgb(0, 0, 0);
+}
+
+
+QLineEdit:hover {
+    color: #000000;
+    border: 2px solid rgb(0, 0, 0);
+}</string>
+     </property>
+     <property name="placeholderText">
+      <string>enter price...</string>
+     </property>
+    </widget>
+   </item>
+   <item row="9" column="2" alignment="Qt::AlignRight">
+    <widget class="QPushButton" name="PBdeleteInstructor">
+     <property name="minimumSize">
+      <size>
+       <width>200</width>
+       <height>0</height>
+      </size>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton {
+    color: #000000;
+    background-color: rgb(219, 219, 219);
+    border-radius: 7px; 
+    border: 3px solid rgb(0, 0, 0);
+}
+
+
+QPushButton:hover {
+    color: #000000;
+    background-color: rgb(0, 202, 0); 
+    border: 2px solid rgb(0, 0, 0);
+}
+QPushButton {
+	font: 14pt &quot;Gabriola&quot;;
+    color: #000000;
+    background-color: rgb(219, 219, 219);
+    border-radius: 7px; 
+    border: 3px solid rgb(0, 0, 0);
+}</string>
+     </property>
+     <property name="text">
+      <string>delete</string>
+     </property>
+    </widget>
+   </item>
+   <item row="6" column="1">
+    <widget class="QLineEdit" name="LEdeleteIns">
+     <property name="styleSheet">
+      <string notr="true">QLineEdit {
+    color: #000000;
+    background-color: rgb(219, 219, 219);
+    border-radius: 7px; 
+    border: 2px solid rgb(0, 0, 0);
+}
+
+
+QLineEdit:hover {
+    color: #000000;
+    border: 2px solid rgb(0, 0, 0);
+}
+</string>
+     </property>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources>
+  <include location="Resource.qrc"/>
+ </resources>
+ <connections/>
+</ui>
